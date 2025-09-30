@@ -1,39 +1,58 @@
-
-using UnityEngine;
+﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class dialougegamesc : MonoBehaviour
 {
     public int score = 0;
-    public int requiredScoreToWin = 1; // how many right answers needed
+    public int requiredScoreToWin = 2;
+
+    [Header("UI Panels")]
+    public GameObject winPanel;
+    public GameObject losePanel;
+
+    [Header("Settings")]
+    public float panelDelay = 5f;   // wait before showing panel
 
     public void CorrectAnswer()
     {
         score++;
-        Debug.Log("Correct! Score: " + score);
-
         if (score >= requiredScoreToWin)
         {
-            WinGame();
+            Invoke(nameof(WinGame), panelDelay);  // delay before showing win
         }
     }
 
     public void WrongAnswer()
     {
-        Debug.Log("Wrong answer!");
-        LoseGame();
+        Invoke(nameof(LoseGame), panelDelay);     // delay before showing lose
     }
 
     void WinGame()
     {
-        Debug.Log("Correct answerrr!");
-        // Example: load win scene
-        // SceneManager.LoadScene("WinScene");
+        if (winPanel != null)
+            winPanel.SetActive(true);
     }
 
     void LoseGame()
     {
-        Debug.Log("Wrong answerrr!");
-        // Example: load lose scene
-        // SceneManager.LoadScene("LoseScene");
+        if (losePanel != null)
+            losePanel.SetActive(true);
+    }
+
+    public void GoToLevelsPage()
+    {
+        SceneManager.LoadScene("levels panel"); // must match your scene file name exactly
+    }
+
+
+    // Optional: restart button
+    public void RestartGame()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
+    public void QuitGame()
+    {
+        Application.Quit();
     }
 }

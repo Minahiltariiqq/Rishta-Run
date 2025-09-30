@@ -119,6 +119,17 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!114 &46980991 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3357267253543747348, guid: cb3476c0e744b5e4ab61b749ec814dc9, type: 3}
+  m_PrefabInstance: {fileID: 5294329607403236736}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ab3e33596244424b992f905f9106c9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &56868826 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 1215806685765894208, guid: 6204e918442e77f45b96b0a3e0a7a2f9, type: 3}
@@ -699,7 +710,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Event:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 46980991}
+        m_TargetAssemblyTypeName: dialougegamesc, Assembly-CSharp
+        m_MethodName: CorrectAnswer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   NodeID: 14
   TMPFont: {fileID: 0}
   Icon: {fileID: 0}
@@ -718,7 +741,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Event:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 46980991}
+        m_TargetAssemblyTypeName: dialougegamesc, Assembly-CSharp
+        m_MethodName: WrongAnswer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   NodeID: 13
   TMPFont: {fileID: 0}
   Icon: {fileID: 0}
@@ -794,7 +829,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Event:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 46980991}
+        m_TargetAssemblyTypeName: dialougegamesc, Assembly-CSharp
+        m_MethodName: WrongAnswer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   NodeID: 9
   TMPFont: {fileID: 0}
   Icon: {fileID: 0}
@@ -813,7 +860,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Event:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 46980991}
+        m_TargetAssemblyTypeName: dialougegamesc, Assembly-CSharp
+        m_MethodName: CorrectAnswer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   NodeID: 8
   TMPFont: {fileID: 0}
   Icon: {fileID: 0}
@@ -946,7 +1005,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Event:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 46980991}
+        m_TargetAssemblyTypeName: dialougegamesc, Assembly-CSharp
+        m_MethodName: CorrectAnswer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   NodeID: 22
   TMPFont: {fileID: 0}
   Icon: {fileID: 0}
@@ -965,7 +1036,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Event:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 46980991}
+        m_TargetAssemblyTypeName: dialougegamesc, Assembly-CSharp
+        m_MethodName: WrongAnswer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   NodeID: 21
   TMPFont: {fileID: 0}
   Icon: {fileID: 0}
@@ -1620,47 +1703,47 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentIDCounter: 25
-  json: "{\"Options\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":18}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":251.333557,\"yPos\":31.666687},\"ID\":4,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Walaikum-assalam
-    aunty mein theek aap batain\",\"parentUIDs\":[0],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":11}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":463.333252,\"yPos\":143.666687},\"ID\":8,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Nai
-    aunty, doctor chhod dein\u2026 mujhe banda chahiye jo mera BP na barhaye\",\"parentUIDs\":[7],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":10}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":708.000366,\"yPos\":142.333313},\"ID\":9,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Jee
-    aunty, doctor ka rishta tou jackpot hota hai, foran baat karen!\",\"parentUIDs\":[7],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":15}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":241.333328,\"yPos\":130.333374},\"ID\":13,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Haan
+  json: "{\"Options\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":18}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":156.667084,\"yPos\":35},\"ID\":4,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Walaikum-assalam
+    aunty mein theek aap batain\",\"parentUIDs\":[0],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":11}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":368.000183,\"yPos\":145.666672},\"ID\":8,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Nai
+    aunty, doctor chhod dein\u2026 mujhe banda chahiye jo mera BP na barhaye\",\"parentUIDs\":[7],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":10}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":610.667,\"yPos\":143.666611},\"ID\":9,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Jee
+    aunty, doctor ka rishta tou jackpot hota hai, foran baat karen!\",\"parentUIDs\":[7],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":15}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":142.000214,\"yPos\":123.666687},\"ID\":13,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Haan
     aunty, Dubai wale rishtay pe to visa bhi free mil jata hai! Ap done krein meri
-    taraf se \",\"parentUIDs\":[12],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":16}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":760.000366,\"yPos\":316.3335},\"ID\":14,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Nai
-    aunty, mujhe abhi abhi degree complete krni hai.\",\"parentUIDs\":[12],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":23}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":141.999985,\"yPos\":431.666748},\"ID\":21,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Haan
+    taraf se \",\"parentUIDs\":[12],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":16}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":664.0001,\"yPos\":317.000061},\"ID\":14,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Nai
+    aunty, mujhe abhi abhi degree complete krni hai.\",\"parentUIDs\":[12],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":23}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":47.33339,\"yPos\":431.6667},\"ID\":21,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Haan
     aunty, ghar hi mera career hai. Promotion bhi wahi mile gi jab saas ko khush
-    kar lungi!\",\"parentUIDs\":[20],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":24}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":386.666748,\"yPos\":447.000244},\"ID\":22,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Nai
+    kar lungi!\",\"parentUIDs\":[20],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":24}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":292.0003,\"yPos\":450.333435},\"ID\":22,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Nai
     aunty, job bhi karni hai warna degree ka faida? Main to corporate baddie hoon,
-    deadlines aur coffee dono manage karti hoon!\",\"parentUIDs\":[20],\"SpeechUID\":-1}],\"Parameters\":[],\"SpeechNodes\":[{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":4}],\"EditorInfo\":{\"isRoot\":true,\"xPos\":29.666687,\"yPos\":18.6666718},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Assalam-o-alaikum
+    deadlines aur coffee dono manage karti hoon!\",\"parentUIDs\":[20],\"SpeechUID\":-1}],\"Parameters\":[],\"SpeechNodes\":[{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":4}],\"EditorInfo\":{\"isRoot\":true,\"xPos\":-65,\"yPos\":22},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Assalam-o-alaikum
     beta, kaisi ho? MashAllah bari pyari lag rahi ho \",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Rishta
-    Aunty \",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":8},{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":9}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":708.000366,\"yPos\":21.3333588},\"ID\":7,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Dekho
+    Aunty \",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":8},{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":9}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":613.3336,\"yPos\":24.6666565},\"ID\":7,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Dekho
     beta, larkiyon ki umar ka pata hi nahi chalta\u2026 is liye seedha poochti hoon
     shaadi hogai hai ya abhi tak ghar walay chup hain? Mere paas ek bara acha rishta
     hai, larka doctor hai. Khehti hou tou baat krun?\",\"parentUIDs\":[18],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Rishta
-    Aunty\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":20}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":762.667053,\"yPos\":214.666687},\"ID\":10,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Wah
+    Aunty\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":20}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":667.3335,\"yPos\":217.999969},\"ID\":10,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Wah
     beta, tum to bari samajhdar nikli. Doctor hai, clinic apna hai, maa-baap ki akeli
     aulaad hai. Tumhari mama ko kal hi phone karti hoon! \",\"parentUIDs\":[9],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Rishta
-    Aunty\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":12}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":479.3335,\"yPos\":219.333374},\"ID\":11,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Haye
+    Aunty\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":12}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":384.667175,\"yPos\":222.666656},\"ID\":11,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Haye
     Allah beta, tum to bari chalak nikli! Lekin sun lo, har banda thoda BP barhata
     hai\u2026 doctor ka to faida ye hai ke woh saath hi dawa bhi likh dega. Samjho
     full package hai! \",\"parentUIDs\":[8],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Rishta
-    Aunty\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":13},{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":14}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":471.333374,\"yPos\":324.6668},\"ID\":12,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Khair,
+    Aunty\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":13},{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":14}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":376.666931,\"yPos\":328.000122},\"ID\":12,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Khair,
     doctor pasand nai to koi baat nai\u2026 mere paas ek aur rishta hai. Larka Dubai
     mein job karta hai, visa aur car dono ready. Kya kehti ho?\",\"parentUIDs\":[11],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Rishta
-    Aunty\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":20}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":234.666641,\"yPos\":224.000214},\"ID\":15,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Bas
+    Aunty\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":20}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":140.000214,\"yPos\":227.333527},\"ID\":15,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Bas
     beta, tumne dil jeet liya. Kal passport tayar rakho, shaadi ka ticket confirm
     samjho!\",\"parentUIDs\":[13],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Rishta
-    Aunty\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":757.3337,\"yPos\":447.333557},\"ID\":16,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Haye
+    Aunty\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":662.666748,\"yPos\":450.6668},\"ID\":16,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Haye
     Allah beta, parh likh ke kya karna hai? Aakhir mein to roti hi banani hai na.
     Shaadi kar lo, degree baad mein bhi latakti rahe gi.\",\"parentUIDs\":[14],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Rishta
-    Aunty\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":7}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":478.666748,\"yPos\":22.6666718},\"ID\":18,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Bas
+    Aunty\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":7}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":384.000427,\"yPos\":25.99997},\"ID\":18,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Bas
     Allah ka shukar hai\",\"parentUIDs\":[4],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Rishta
-    Aunty\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":21},{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":22}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":102.000015,\"yPos\":320.6667},\"ID\":20,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Lekin
+    Aunty\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":21},{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":22}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":7.333496,\"yPos\":324},\"ID\":20,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Lekin
     ek baat aur batao\u2026 shaadi ke baad job karni hai ya ghar sambhalna hai?\",\"parentUIDs\":[10,15],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Rishta
-    Aunty\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":123.333328,\"yPos\":544.000244},\"ID\":23,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"SubhanAllah
+    Aunty\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":28.6667633,\"yPos\":547.333252},\"ID\":23,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"SubhanAllah
     beta! Tumhari soch ne to mera dil jeet liya. Aisi hi larkiyan ghar basati hain,
     aur susraal mein CEO ban jaati hain. Chalo, aunty ne tumhe top position ke liye
     shortlist kar diya! Tumhari ammi se jakar baat karti hun.\",\"parentUIDs\":[21],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Rishta
-    Aunty\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":491.333618,\"yPos\":539.3335},\"ID\":24,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Corporate
+    Aunty\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":396.667053,\"yPos\":542.6665},\"ID\":24,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Corporate
     baddie? Haye Allah beta\u2026 shaadi ke baad tum sirf laundry baddie banogi.
     Degree aur deadlines sab bhool jao, asal project sirf ek hoga: roti banani aur
     ghar chalana. Aur sun lo, ismein koi extension nahi milti. Baki tumhari marzi.\",\"parentUIDs\":[22],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Rishta
@@ -1692,7 +1775,19 @@ MonoBehaviour:
   EndConversationFont: {fileID: 0}
   Event:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 46980991}
+        m_TargetAssemblyTypeName: dialougegamesc, Assembly-CSharp
+        m_MethodName: CorrectAnswer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!4 &805422383
 Transform:
   m_ObjectHideFlags: 0
@@ -1840,7 +1935,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 0
-  m_AdditionalShaderChannelsFlag: 0
+  m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
@@ -1860,6 +1955,8 @@ RectTransform:
   - {fileID: 1549165910}
   - {fileID: 56868826}
   - {fileID: 1511153740}
+  - {fileID: 1478049331}
+  - {fileID: 1382430544}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -2467,6 +2564,16 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1347887135}
   m_CullTransparentMesh: 1
+--- !u!1 &1382430541 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7635579280021091651, guid: 7ea658d1f35ed9446a5624314b43ec93, type: 3}
+  m_PrefabInstance: {fileID: 3889503117651598518}
+  m_PrefabAsset: {fileID: 0}
+--- !u!224 &1382430544 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 590898835815769728, guid: 7ea658d1f35ed9446a5624314b43ec93, type: 3}
+  m_PrefabInstance: {fileID: 3889503117651598518}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1448920966
 GameObject:
   m_ObjectHideFlags: 0
@@ -2546,6 +2653,16 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -0.05}
+--- !u!1 &1478049330 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7774224076111156535, guid: b116567fed7ff6349aebf8efd0ce4993, type: 3}
+  m_PrefabInstance: {fileID: 3097678504340657573}
+  m_PrefabAsset: {fileID: 0}
+--- !u!224 &1478049331 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 5731669272895845695, guid: b116567fed7ff6349aebf8efd0ce4993, type: 3}
+  m_PrefabInstance: {fileID: 3097678504340657573}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1504149026
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3767,6 +3884,273 @@ PrefabInstance:
       addedObject: {fileID: 1540672142}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4324507d163af4f849523295e146c7bf, type: 3}
+--- !u!1001 &3097678504340657573
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 860823256}
+    m_Modifications:
+    - target: {fileID: 3690494910871317113, guid: b116567fed7ff6349aebf8efd0ce4993, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 46980991}
+    - target: {fileID: 5731669272895845695, guid: b116567fed7ff6349aebf8efd0ce4993, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5731669272895845695, guid: b116567fed7ff6349aebf8efd0ce4993, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5731669272895845695, guid: b116567fed7ff6349aebf8efd0ce4993, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5731669272895845695, guid: b116567fed7ff6349aebf8efd0ce4993, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5731669272895845695, guid: b116567fed7ff6349aebf8efd0ce4993, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5731669272895845695, guid: b116567fed7ff6349aebf8efd0ce4993, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5731669272895845695, guid: b116567fed7ff6349aebf8efd0ce4993, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5731669272895845695, guid: b116567fed7ff6349aebf8efd0ce4993, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5731669272895845695, guid: b116567fed7ff6349aebf8efd0ce4993, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5731669272895845695, guid: b116567fed7ff6349aebf8efd0ce4993, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5731669272895845695, guid: b116567fed7ff6349aebf8efd0ce4993, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5731669272895845695, guid: b116567fed7ff6349aebf8efd0ce4993, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5731669272895845695, guid: b116567fed7ff6349aebf8efd0ce4993, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5731669272895845695, guid: b116567fed7ff6349aebf8efd0ce4993, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5731669272895845695, guid: b116567fed7ff6349aebf8efd0ce4993, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5731669272895845695, guid: b116567fed7ff6349aebf8efd0ce4993, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5731669272895845695, guid: b116567fed7ff6349aebf8efd0ce4993, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5731669272895845695, guid: b116567fed7ff6349aebf8efd0ce4993, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5731669272895845695, guid: b116567fed7ff6349aebf8efd0ce4993, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5731669272895845695, guid: b116567fed7ff6349aebf8efd0ce4993, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7774224076111156535, guid: b116567fed7ff6349aebf8efd0ce4993, type: 3}
+      propertyPath: m_Name
+      value: winPanel
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b116567fed7ff6349aebf8efd0ce4993, type: 3}
+--- !u!1001 &3889503117651598518
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 860823256}
+    m_Modifications:
+    - target: {fileID: 590898835815769728, guid: 7ea658d1f35ed9446a5624314b43ec93, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 590898835815769728, guid: 7ea658d1f35ed9446a5624314b43ec93, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 590898835815769728, guid: 7ea658d1f35ed9446a5624314b43ec93, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 590898835815769728, guid: 7ea658d1f35ed9446a5624314b43ec93, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 590898835815769728, guid: 7ea658d1f35ed9446a5624314b43ec93, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 590898835815769728, guid: 7ea658d1f35ed9446a5624314b43ec93, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 590898835815769728, guid: 7ea658d1f35ed9446a5624314b43ec93, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 590898835815769728, guid: 7ea658d1f35ed9446a5624314b43ec93, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 590898835815769728, guid: 7ea658d1f35ed9446a5624314b43ec93, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 590898835815769728, guid: 7ea658d1f35ed9446a5624314b43ec93, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 590898835815769728, guid: 7ea658d1f35ed9446a5624314b43ec93, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 590898835815769728, guid: 7ea658d1f35ed9446a5624314b43ec93, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 590898835815769728, guid: 7ea658d1f35ed9446a5624314b43ec93, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 590898835815769728, guid: 7ea658d1f35ed9446a5624314b43ec93, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 590898835815769728, guid: 7ea658d1f35ed9446a5624314b43ec93, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 590898835815769728, guid: 7ea658d1f35ed9446a5624314b43ec93, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 590898835815769728, guid: 7ea658d1f35ed9446a5624314b43ec93, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 590898835815769728, guid: 7ea658d1f35ed9446a5624314b43ec93, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 590898835815769728, guid: 7ea658d1f35ed9446a5624314b43ec93, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 590898835815769728, guid: 7ea658d1f35ed9446a5624314b43ec93, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5163700902629563981, guid: 7ea658d1f35ed9446a5624314b43ec93, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 46980991}
+    - target: {fileID: 7635579280021091651, guid: 7ea658d1f35ed9446a5624314b43ec93, type: 3}
+      propertyPath: m_Name
+      value: 'losePanel '
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7ea658d1f35ed9446a5624314b43ec93, type: 3}
+--- !u!1001 &5294329607403236736
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3357267253543747348, guid: cb3476c0e744b5e4ab61b749ec814dc9, type: 3}
+      propertyPath: winPanel
+      value: 
+      objectReference: {fileID: 1478049330}
+    - target: {fileID: 3357267253543747348, guid: cb3476c0e744b5e4ab61b749ec814dc9, type: 3}
+      propertyPath: losePanel
+      value: 
+      objectReference: {fileID: 1382430541}
+    - target: {fileID: 4215120185476973019, guid: cb3476c0e744b5e4ab61b749ec814dc9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4215120185476973019, guid: cb3476c0e744b5e4ab61b749ec814dc9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4215120185476973019, guid: cb3476c0e744b5e4ab61b749ec814dc9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4215120185476973019, guid: cb3476c0e744b5e4ab61b749ec814dc9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4215120185476973019, guid: cb3476c0e744b5e4ab61b749ec814dc9, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4215120185476973019, guid: cb3476c0e744b5e4ab61b749ec814dc9, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4215120185476973019, guid: cb3476c0e744b5e4ab61b749ec814dc9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4215120185476973019, guid: cb3476c0e744b5e4ab61b749ec814dc9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4215120185476973019, guid: cb3476c0e744b5e4ab61b749ec814dc9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4215120185476973019, guid: cb3476c0e744b5e4ab61b749ec814dc9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4253984622404401763, guid: cb3476c0e744b5e4ab61b749ec814dc9, type: 3}
+      propertyPath: m_Name
+      value: dialougegamemanager
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: cb3476c0e744b5e4ab61b749ec814dc9, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -3787,3 +4171,4 @@ SceneRoots:
   - {fileID: 2572309527171000704}
   - {fileID: 1309510260}
   - {fileID: 574875975}
+  - {fileID: 5294329607403236736}
